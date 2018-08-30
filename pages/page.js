@@ -1,14 +1,10 @@
-import Head from 'next/head'
 import Main from '../layouts/main';
 
 export default () => {
   return (
     <>
-      <Head>
-      </Head>
       <Main>
-        <div>1+1=2</div>
-
+        <div>2+2=4</div>
       </Main>
     </>
   );
