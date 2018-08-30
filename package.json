@@ -10,7 +10,7 @@
     "now": "now --public && now alias && now remove bakkerlabs --safe -y"
   },
   "now": {
-    "alias": "dev.bakkerlabs.nl"
+    "alias": "bakkerlabs.nl"
   },
   "author": "",
   "license": "ISC",
