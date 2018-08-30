@@ -1,15 +1,17 @@
 import Head from 'next/head'
 import Main from '../layouts/main';
 
-export default () => {
-  return (
-    <>
-      <Head>
-      </Head>
-      <Main>
-        <div>1+1=2</div>
+export default class Index extends React.Component {
+  render() {
+    return (
+      <>
+        <Head>
+        </Head>
+        <Main>
+          <h1>The spectacle before us was indeed sublime.</h1>
 
-      </Main>
-    </>
-  );
+        </Main>
+      </>
+    );
+  }
 }

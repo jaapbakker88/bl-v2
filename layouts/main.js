@@ -10,6 +10,7 @@ export default (props) => {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="robots" content="noindex, nofollow" />
         <meta name="robots" content="none" />
+        <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet" />
         <GoogleTagManager />
       </Head>
       <div className="wrapper">
@@ -27,8 +28,13 @@ export default (props) => {
 
         body {
           font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+          color: rgba(0,0,0,0.79);
           margin: 0;
           padding: 0;
+        }
+
+        h1, h2, h3 {
+          font-family: 'Bree Serif', serif;
         }
 
         .wrapper {
